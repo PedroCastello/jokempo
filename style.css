@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("https://source.unsplash.com/1600x900/?landscape");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+button {
+  padding: 10px;
+  font-size: 45px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.buttons {
+  margin: 30px 0px;
+  display: flex;
+  gap: 40px;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+button:active {
+  font-size: 40px;
+}
+
+#rock {
+  background-color: #a200ff;
+}
+
+#paper {
+  background-color: #9ee01a;
+}
+
+#scissors {
+  background-color: #7dbeed;
+}
+
+p {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-family: 'Figtree', sans-serif;
+  
+}
+
+.your-score span {
+    color: rgb(237, 154, 1);
+}
+
+.alexa-score span {
+    color: rgb(146, 182, 249);
+}
+
+h1{
+  font-family: 'Permanent Marker', cursive;
+}
